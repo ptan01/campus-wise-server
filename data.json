@@ -1,0 +1,69 @@
+[
+    {
+      "collegeImage": "https://images.squarespace-cdn.com/content/v1/54bd666fe4b08185611ed6a9/1540575744494-9Q9T988TPH0E6ZL0UFSI/DSC_6426.jpg?format=1500w",
+      "collegeName": "University of Tokyo",
+      "collegeRating": 4.5,
+      "admissionDate": "2023-09-01",
+      "numberOfResearch": 120,
+      "details": {
+        "events": ["Tech Fest", "Cultural Night", "Sports Meet"],
+        "sportsFacilities": ["Football field", "Basketball court", "Swimming pool"]
+      }
+    },
+    {
+      "collegeImage": "https://news.stanford.edu/wp-content/uploads/2022/04/Oval_featured.jpg",
+      "collegeName": "Stanford University",
+      "collegeRating": 4.2,
+      "admissionDate": "2023-08-15",
+      "numberOfResearch": 80,
+      "details": {
+        "events": ["Annual Day", "Science Exhibition", "Literary Fest"],
+        "sportsFacilities": ["Tennis court", "Badminton court", "Gymnasium"]
+      }
+    },
+    {
+      "collegeImage": "https://www.haleeducation.com/wp-content/uploads/2022/02/Columbia_University_-_Butler_Library_48170368646-scaled.jpg",
+      "collegeName": "Columbia University",
+      "collegeRating": 4.8,
+      "admissionDate": "2023-10-05",
+      "numberOfResearch": 150,
+      "details": {
+        "events": ["Music Fest", "Coding Challenge", "Athletic Meet"],
+        "sportsFacilities": ["Cricket ground", "Volleyball court", "Yoga studio"]
+      }
+    },
+    {
+      "collegeImage": "https://wallpapercave.com/wp/wp1915267.jpg",
+      "collegeName": "University of Cambridge",
+      "collegeRating": 4.0,
+      "admissionDate": "2023-09-20",
+      "numberOfResearch": 60,
+      "details": {
+        "events": ["Dance Competition", "Startup Fair", "Quiz Competition"],
+        "sportsFacilities": ["Hockey field", "Table Tennis", "Fitness center"]
+      }
+    },
+    {
+      "collegeImage": "https://cdn.create.vista.com/api/media/small/72580061/stock-photo-yale-university-buildings-in-spring",
+      "collegeName": "Yale University",
+      "collegeRating": 4.6,
+      "admissionDate": "2023-08-30",
+      "numberOfResearch": 100,
+      "details": {
+        "events": ["Film Festival", "Literature Workshop", "Chess Championship"],
+        "sportsFacilities": ["Soccer field", "Running track", "Weightlifting area"]
+      }
+    },
+    {
+      "collegeImage": "https://images.unsplash.com/photo-1623631484725-fef26b75b402?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1102&q=80",
+      "collegeName": "Princeton University",
+      "collegeRating": 4.4,
+      "admissionDate": "2023-09-10",
+      "numberOfResearch": 90,
+      "details": {
+        "events": ["Fashion Show", "Art Exhibition", "Debate Competition"],
+        "sportsFacilities": ["Swimming pool", "Squash court", "Gymnasium"]
+      }
+    }
+  ]
+  
