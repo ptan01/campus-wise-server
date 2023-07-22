@@ -7,7 +7,8 @@
       "numberOfResearch": 120,
       "details": {
         "events": ["Tech Fest", "Cultural Night", "Sports Meet"],
-        "sportsFacilities": ["Football field", "Basketball court", "Swimming pool"]
+        "sportsFacilities": ["Football field", "Basketball court", "Swimming pool"],
+        "about": "The University of Tokyo, commonly referred to as Todai, is a prestigious public research university located in Bunkyo, Tokyo, Japan. It is often considered one of the top universities in the world and is a prominent institution in the field of higher education and research.Founded in 1877, the University of Tokyo has a rich history and has played a crucial role in shaping Japan's modern education system and academic landscape. The university's mission is to foster knowledge, creativity, and global leadership while contributing to the betterment of society."
       }
     },
     {
@@ -18,7 +19,8 @@
       "numberOfResearch": 80,
       "details": {
         "events": ["Annual Day", "Science Exhibition", "Literary Fest"],
-        "sportsFacilities": ["Tennis court", "Badminton court", "Gymnasium"]
+        "sportsFacilities": ["Tennis court", "Badminton court", "Gymnasium"],
+        "about": "Stanford University is a prestigious private research institution located in Stanford, California, USA. Founded in 1885 by Leland Stanford and his wife Jane, the university is named after their late son, Leland Stanford Jr. It has since grown to become one of the world's leading universities and is renowned for its academic excellence, cutting-edge research, and innovation."
       }
     },
     {
@@ -29,7 +31,8 @@
       "numberOfResearch": 150,
       "details": {
         "events": ["Music Fest", "Coding Challenge", "Athletic Meet"],
-        "sportsFacilities": ["Cricket ground", "Volleyball court", "Yoga studio"]
+        "sportsFacilities": ["Cricket ground", "Volleyball court", "Yoga studio"],
+        "about": "Columbia University is a prestigious private Ivy League research university located in New York City, United States. Established in 1754, it is one of the oldest higher education institutions in the country and is renowned for its academic excellence and global reputation.Situated in the Morningside Heights neighborhood of Manhattan, Columbia's campus covers a significant area and offers a diverse range of academic programs, including undergraduate, graduate, and professional degrees across various fields of study"
       }
     },
     {
@@ -40,7 +43,8 @@
       "numberOfResearch": 60,
       "details": {
         "events": ["Dance Competition", "Startup Fair", "Quiz Competition"],
-        "sportsFacilities": ["Hockey field", "Table Tennis", "Fitness center"]
+        "sportsFacilities": ["Hockey field", "Table Tennis", "Fitness center"],
+        "about": "The University of Cambridge, located in Cambridge, England, is one of the world's most prestigious and oldest universities. Founded in 1209, it is part of the esteemed Oxbridge duo alongside the University of Oxford. Cambridge has a rich history of academic excellence and has produced numerous eminent scholars, scientists, and thinkers.The university comprises a total of 31 autonomous colleges, each with its own unique history, traditions, and atmosphere. These colleges are responsible for admissions, accommodation, and the welfare of their students."
       }
     },
     {
@@ -51,7 +55,8 @@
       "numberOfResearch": 100,
       "details": {
         "events": ["Film Festival", "Literature Workshop", "Chess Championship"],
-        "sportsFacilities": ["Soccer field", "Running track", "Weightlifting area"]
+        "sportsFacilities": ["Soccer field", "Running track", "Weightlifting area"],
+        "about": "Yale University is a prestigious and renowned private Ivy League institution located in New Haven, Connecticut, United States. Founded in 1701, it is one of the oldest universities in the country. Yale is consistently ranked among the top universities worldwide, renowned for its academic excellence, diverse programs, and historic campus.The university offers a wide range of undergraduate, graduate, and professional degrees across various disciplines, including arts and humanities, social sciences, natural sciences, engineering, and professional studies."
       }
     },
     {
@@ -62,7 +67,8 @@
       "numberOfResearch": 90,
       "details": {
         "events": ["Fashion Show", "Art Exhibition", "Debate Competition"],
-        "sportsFacilities": ["Swimming pool", "Squash court", "Gymnasium"]
+        "sportsFacilities": ["Swimming pool", "Squash court", "Gymnasium"],
+        "about": "Princeton University is a prestigious private Ivy League research institution located in Princeton, New Jersey, United States. Founded in 1746, it is one of the oldest and most renowned universities in the country. Princeton has consistently been ranked among the top universities globally and is known for its academic excellence, rigorous curriculum, and distinguished faculty.The university's campus is famous for its beautiful Gothic-style architecture and picturesque surroundings. It offers a wide range of undergraduate and graduate programs across various disciplines, including humanities, social sciences, natural sciences, engineering, and more."
       }
     }
   ]

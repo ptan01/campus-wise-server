@@ -41,6 +41,12 @@ async function run() {
       res.send(result)
     })
 
+    app.get('/collage/search/:text', async (req, res)=>{
+      const text = req.params.text ;
+      const result = await collageCollection.find({$or: [ { collegeName: { $regex: text, $options: "i" } }]}).toArray()
+      res.send(result)
+    })
+
 
 
     // Send a ping to confirm a successful connection
