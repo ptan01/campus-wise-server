@@ -29,6 +29,7 @@ async function run() {
 
     const collageCollection = client.db('campusDB').collection('collage') ;
     const admissionsCollection = client.db('campusDB').collection('admissions') ;
+    const submitAdmissionsCollection = client.db('campusDB').collection('submitAdmissions') ;
 
     app.get('/collage',async(req, res)=> {
         const result = await collageCollection.find().toArray() ;
@@ -53,6 +54,18 @@ async function run() {
       res.send(result)
     })
 
+    app.get('/admissions/:id', async (req, res)=>{
+      const id = req.params.id ;
+      const query = {_id : new ObjectId(id)} ;
+      const result = await admissionsCollection.findOne(query) ;
+      res.send(result)
+    })
+
+    app.post('/submitApplication', async(req, res) =>{
+      const admissionData = req.body ;
+      const result = await submitAdmissionsCollection.insertOne(admissionData) ;
+      res.send(result)
+    })
 
 
     // Send a ping to confirm a successful connection
