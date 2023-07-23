@@ -28,6 +28,7 @@ async function run() {
     await client.connect();
 
     const collageCollection = client.db('campusDB').collection('collage') ;
+    const admissionsCollection = client.db('campusDB').collection('admissions') ;
 
     app.get('/collage',async(req, res)=> {
         const result = await collageCollection.find().toArray() ;
@@ -44,6 +45,11 @@ async function run() {
     app.get('/collage/search/:text', async (req, res)=>{
       const text = req.params.text ;
       const result = await collageCollection.find({$or: [ { collegeName: { $regex: text, $options: "i" } }]}).toArray()
+      res.send(result)
+    })
+
+    app.get('/admissions', async(req, res)=> {
+      const result = await admissionsCollection.find().toArray() ;
       res.send(result)
     })
 
