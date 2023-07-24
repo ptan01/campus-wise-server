@@ -75,6 +75,11 @@ async function run() {
       res.send(result)
     })
 
+    app.get('/reviewCollage', async(req, res)=>{
+      const result = await reviewCollagesCollection.find().sort({_id : -1}).limit(6).toArray()
+      res.send(result)
+    })
+
     app.post('/reviewCollage', async(req,res)=>{
       const reviewCollage = req.body ;
       const result = await reviewCollagesCollection.insertOne(reviewCollage) ;
