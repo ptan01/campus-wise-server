@@ -28,9 +28,10 @@ async function run() {
     await client.connect();
 
     const collageCollection = client.db('campusDB').collection('collage') ;
+    const reviewCollagesCollection = client.db('campusDB').collection('reviewCollages') ;
     const admissionsCollection = client.db('campusDB').collection('admissions') ;
     const submitAdmissionsCollection = client.db('campusDB').collection('submitAdmissions') ;
-
+    
     app.get('/collage',async(req, res)=> {
         const result = await collageCollection.find().toArray() ;
         res.send(result)
@@ -71,6 +72,12 @@ async function run() {
       const email = req.params.email ;
       const query = {email : email} ;
       const result = await submitAdmissionsCollection.find(query).toArray()
+      res.send(result)
+    })
+
+    app.post('/reviewCollage', async(req,res)=>{
+      const reviewCollage = req.body ;
+      const result = await reviewCollagesCollection.insertOne(reviewCollage) ;
       res.send(result)
     })
 
