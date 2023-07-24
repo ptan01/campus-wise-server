@@ -1,75 +1,56 @@
 [
-    {
-      "collegeImage": "https://images.squarespace-cdn.com/content/v1/54bd666fe4b08185611ed6a9/1540575744494-9Q9T988TPH0E6ZL0UFSI/DSC_6426.jpg?format=1500w",
-      "collegeName": "University of Tokyo",
-      "collegeRating": 4.5,
-      "admissionDate": "2023-09-01",
-      "numberOfResearch": 120,
-      "details": {
-        "events": ["Tech Fest", "Cultural Night", "Sports Meet"],
-        "sportsFacilities": ["Football field", "Basketball court", "Swimming pool"],
-        "about": "The University of Tokyo, commonly referred to as Todai, is a prestigious public research university located in Bunkyo, Tokyo, Japan. It is often considered one of the top universities in the world and is a prominent institution in the field of higher education and research.Founded in 1877, the University of Tokyo has a rich history and has played a crucial role in shaping Japan's modern education system and academic landscape. The university's mission is to foster knowledge, creativity, and global leadership while contributing to the betterment of society."
-      }
-    },
-    {
-      "collegeImage": "https://news.stanford.edu/wp-content/uploads/2022/04/Oval_featured.jpg",
-      "collegeName": "Stanford University",
-      "collegeRating": 4.2,
-      "admissionDate": "2023-08-15",
-      "numberOfResearch": 80,
-      "details": {
-        "events": ["Annual Day", "Science Exhibition", "Literary Fest"],
-        "sportsFacilities": ["Tennis court", "Badminton court", "Gymnasium"],
-        "about": "Stanford University is a prestigious private research institution located in Stanford, California, USA. Founded in 1885 by Leland Stanford and his wife Jane, the university is named after their late son, Leland Stanford Jr. It has since grown to become one of the world's leading universities and is renowned for its academic excellence, cutting-edge research, and innovation."
-      }
-    },
-    {
-      "collegeImage": "https://www.haleeducation.com/wp-content/uploads/2022/02/Columbia_University_-_Butler_Library_48170368646-scaled.jpg",
-      "collegeName": "Columbia University",
-      "collegeRating": 4.8,
-      "admissionDate": "2023-10-05",
-      "numberOfResearch": 150,
-      "details": {
-        "events": ["Music Fest", "Coding Challenge", "Athletic Meet"],
-        "sportsFacilities": ["Cricket ground", "Volleyball court", "Yoga studio"],
-        "about": "Columbia University is a prestigious private Ivy League research university located in New York City, United States. Established in 1754, it is one of the oldest higher education institutions in the country and is renowned for its academic excellence and global reputation.Situated in the Morningside Heights neighborhood of Manhattan, Columbia's campus covers a significant area and offers a diverse range of academic programs, including undergraduate, graduate, and professional degrees across various fields of study"
-      }
-    },
-    {
-      "collegeImage": "https://wallpapercave.com/wp/wp1915267.jpg",
-      "collegeName": "University of Cambridge",
-      "collegeRating": 4.0,
-      "admissionDate": "2023-09-20",
-      "numberOfResearch": 60,
-      "details": {
-        "events": ["Dance Competition", "Startup Fair", "Quiz Competition"],
-        "sportsFacilities": ["Hockey field", "Table Tennis", "Fitness center"],
-        "about": "The University of Cambridge, located in Cambridge, England, is one of the world's most prestigious and oldest universities. Founded in 1209, it is part of the esteemed Oxbridge duo alongside the University of Oxford. Cambridge has a rich history of academic excellence and has produced numerous eminent scholars, scientists, and thinkers.The university comprises a total of 31 autonomous colleges, each with its own unique history, traditions, and atmosphere. These colleges are responsible for admissions, accommodation, and the welfare of their students."
-      }
-    },
-    {
-      "collegeImage": "https://cdn.create.vista.com/api/media/small/72580061/stock-photo-yale-university-buildings-in-spring",
-      "collegeName": "Yale University",
-      "collegeRating": 4.6,
-      "admissionDate": "2023-08-30",
-      "numberOfResearch": 100,
-      "details": {
-        "events": ["Film Festival", "Literature Workshop", "Chess Championship"],
-        "sportsFacilities": ["Soccer field", "Running track", "Weightlifting area"],
-        "about": "Yale University is a prestigious and renowned private Ivy League institution located in New Haven, Connecticut, United States. Founded in 1701, it is one of the oldest universities in the country. Yale is consistently ranked among the top universities worldwide, renowned for its academic excellence, diverse programs, and historic campus.The university offers a wide range of undergraduate, graduate, and professional degrees across various disciplines, including arts and humanities, social sciences, natural sciences, engineering, and professional studies."
-      }
-    },
-    {
-      "collegeImage": "https://images.unsplash.com/photo-1623631484725-fef26b75b402?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1102&q=80",
-      "collegeName": "Princeton University",
-      "collegeRating": 4.4,
-      "admissionDate": "2023-09-10",
-      "numberOfResearch": 90,
-      "details": {
-        "events": ["Fashion Show", "Art Exhibition", "Debate Competition"],
-        "sportsFacilities": ["Swimming pool", "Squash court", "Gymnasium"],
-        "about": "Princeton University is a prestigious private Ivy League research institution located in Princeton, New Jersey, United States. Founded in 1746, it is one of the oldest and most renowned universities in the country. Princeton has consistently been ranked among the top universities globally and is known for its academic excellence, rigorous curriculum, and distinguished faculty.The university's campus is famous for its beautiful Gothic-style architecture and picturesque surroundings. It offers a wide range of undergraduate and graduate programs across various disciplines, including humanities, social sciences, natural sciences, engineering, and more."
-      }
+  {
+    "college_img": "https://images.unsplash.com/photo-1623631484725-fef26b75b402?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1102&q=80",
+    "college_name": "Harvard University",
+    "admission_date": "2023-09-01",
+    "events": ["Orientation Day", "Cultural Fest", "Coding Hackathon"],
+    "research_history": "Founded in 1970, Harvard University is known for its groundbreaking research.",
+    "sport": "Basketball",
+    "detail": {
+        "admission_process": "To apply for admission, visit the university website and submit the online application form.",
+        "event_details": {
+            "Orientation Day": "Date: September 5, 2023, Venue: University Auditorium",
+            "Cultural Fest": "Date: October 15-17, 2023, Venue: University Campus",
+            "Coding Hackathon": "Date: November 10, 2023, Venue: IT Center"
+        },
+        "research_work": "Harvard University has made significant contributions to various research areas, including arts and humanities.",
+        "sports_categories": ["Basketball", "Volleyball", "Swimming"]
     }
-  ]
-  
+},
+{
+  "college_img": "https://images.squarespace-cdn.com/content/v1/54bd…94-9Q9T988TPH0E6ZL0UFSI/DSC_6426.jpg?format=1500w",
+  "college_name": "Stanford University",
+  "admission_date": "2023-07-15",
+  "events": ["Tech Expo", "Alumni Meet", "Intra-college Sports Meet"],
+  "research_history": "Stanford University was established in 2000, focusing on cutting-edge research in engineering.",
+  "sport": "Cricket",
+  "detail": {
+      "admission_process": "To apply for admission, fill out the application form available on the institute's official website.",
+      "event_details": {
+          "Tech Expo": "Date: August 20, 2023, Venue: Institute Campus",
+          "Alumni Meet": "Date: October 5, 2023, Venue: Institute Auditorium",
+          "Intra-college Sports Meet": "Date: September 7-9, 2023, Venue: Sports Ground"
+      },
+      "research_work": "Stanford University has been actively collaborating on research projects with industry partners.",
+      "sports_categories": ["Cricket", "Badminton", "Table Tennis"]
+  }
+},
+{
+  "college_img": "https://www.haleeducation.com/wp-content/uploads/2…niversity_-_Butler_Library_48170368646-scaled.jpg",
+  "college_name": "Yale University",
+  "admission_date": "2023-08-15",
+  "events": ["Art Exhibition", "Literary Fest", "Dance Workshop"],
+  "research_history": "Yale University was established in 1950 and has a rich history of promoting arts and culture.",
+  "sport": "Tennis",
+  "detail": {
+      "admission_process": "To apply for admission, visit the college admissions office and submit the required documents.",
+      "event_details": {
+          "Art Exhibition": "Date: September 10-12, 2023, Venue: College Art Gallery",
+          "Literary Fest": "Date: October 25-27, 2023, Venue: College Seminar Hall",
+          "Dance Workshop": "Date: November 15, 2023, Venue: Dance Studio"
+      },
+      "research_work": "Yale University actively supports research and exploration in various artistic disciplines.",
+      "sports_categories": ["Tennis", "Swimming", "Chess"]
+  }
+}
+]

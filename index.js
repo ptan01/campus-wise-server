@@ -25,12 +25,13 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
 
     const collageCollection = client.db('campusDB').collection('collage') ;
     const reviewCollagesCollection = client.db('campusDB').collection('reviewCollages') ;
     const admissionsCollection = client.db('campusDB').collection('admissions') ;
     const submitAdmissionsCollection = client.db('campusDB').collection('submitAdmissions') ;
+    const opoularCollagesCollection = client.db('campusDB').collection('opoularCollages') ;
     
     app.get('/collage',async(req, res)=> {
         const result = await collageCollection.find().toArray() ;
@@ -84,6 +85,19 @@ async function run() {
       const reviewCollage = req.body ;
       const result = await reviewCollagesCollection.insertOne(reviewCollage) ;
       res.send(result)
+    })
+
+    app.get('/popularCollage', async(req, res)=>{
+      const result = await opoularCollagesCollection.find().toArray()
+      res.send(result)
+    })
+
+    app.get('/popularCollage/:id', async(req, res)=>{
+      const id = req.params.id ;
+      const query = {_id : new ObjectId(id)}
+      const result = await opoularCollagesCollection.findOne(query) ;
+      res.send(result)  
+
     })
 
 
